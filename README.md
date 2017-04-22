@@ -2,7 +2,9 @@
 Drag a link upwards to open in a new tab, downwards to open in a background tab.
 
 ## Installation
-https://raw.githubusercontent.com/LenAnderson/DragLink/master/DragLink.user.js
+You need to have a UserScript extension like Tampermonkey or Greasemonkey installed to use this script.
+
+[Install](https://raw.githubusercontent.com/LenAnderson/DragLink/master/DragLink.user.js)
 
 ## Issues / Requests / Questions
 To report any issues, make requests or ask questions about the script please use GitHub's issue tracker.
