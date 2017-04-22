@@ -50,4 +50,14 @@
     });
     
     init();
+    var mo = new MutationObserver(function(muts) {
+        muts.forEach(function(mut) {
+            [].forEach.call(mut.addedNodes, function(node) {
+                if (node instanceof HTMLElement) {
+                    init(node);
+                }
+            });
+        });
+    });
+    mo.observe(document.body, {childList:true, subtree:true});
 })();
